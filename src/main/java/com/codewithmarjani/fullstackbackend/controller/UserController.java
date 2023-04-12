@@ -1,14 +1,15 @@
-package com.codewitharjun.fullstackbackend.controller;
+package com.codewithmarjani.fullstackbackend.controller;
 
-import com.codewitharjun.fullstackbackend.exception.UserNotFoundException;
-import com.codewitharjun.fullstackbackend.model.User;
-import com.codewitharjun.fullstackbackend.repository.UserRepository;
+import com.codewithmarjani.fullstackbackend.exception.UserNotFoundException;
+import com.codewithmarjani.fullstackbackend.model.User;
+import com.codewithmarjani.fullstackbackend.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/* Created by Arjun Gautam */
+
 @RestController
 @CrossOrigin("http://localhost:3000")
 public class UserController {

@@ -1,5 +1,5 @@
-package com.codewitharjun.fullstackbackend.exception;
-/* Created by Arjun Gautam */
+package com.codewithmarjani.fullstackbackend.exception;
+
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
